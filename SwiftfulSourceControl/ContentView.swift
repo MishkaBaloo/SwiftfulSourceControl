@@ -17,6 +17,7 @@ struct ContentView: View {
           Button("CLick me!") {
             
           }
+          .background(Color.red)
         }
         .padding()
     }
