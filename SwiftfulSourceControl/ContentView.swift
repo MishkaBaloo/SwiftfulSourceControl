@@ -35,8 +35,14 @@ struct ContentView: View {
       Image(systemName: "heart.fill")
         .font(.largeTitle)
         .foregroundStyle(.tint)
+      
       Text("Swiftful, source control")
-      Button("CLick me!") {
+      
+      Button("Subscribe button") {
+        
+      }
+      
+      Button("Click me!") {
         
       }
       .background(Color.red)
