@@ -8,21 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "heart.fill")
-            .font(.largeTitle)
-                .foregroundStyle(.tint)
-            Text("Hello, source control")
-          Button("CLick me!") {
-            
-          }
-          .background(Color.red)
-        }
-        .padding()
+  var body: some View {
+    VStack {
+      Image(systemName: "heart.fill")
+        .font(.largeTitle)
+        .foregroundStyle(.tint)
+      Text("Swiftful, source control")
+      Button("CLick me!") {
+        
+      }
+      .background(Color.green)
     }
+    .padding()
+  }
 }
 
 #Preview {
-    ContentView()
+  ContentView()
 }
