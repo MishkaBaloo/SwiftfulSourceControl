@@ -43,9 +43,9 @@ struct ContentView: View {
         .font(.largeTitle)
         .foregroundStyle(.tint)
       
-      Text("Swiftful, source control")
+      Text("Swiftful, source control!")
       
-      Button("Subscribe now!") {
+      Button("Subscribe") {
         
       }
       .background(Color.red)
