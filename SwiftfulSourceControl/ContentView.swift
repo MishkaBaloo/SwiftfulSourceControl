@@ -38,7 +38,7 @@ struct ContentView: View {
       
       Text("Swiftful, source control")
       
-      Button("Subscribe button") {
+      Button("Subscribe now!") {
         
       }
       .background(Color.red)
